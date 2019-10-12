@@ -1,0 +1,86 @@
+*{
+  color:white;
+}
+html{
+  background-color: black;
+}
+div{
+  display:flex;
+  justify-content: space-between;
+}
+.group{
+  width:25%;
+  height:25%;
+}
+.Homie{
+  width:25%;
+  height:25%;
+}
+.Photos{
+  display: flex;
+  flex-direction: row;
+  float:left;
+}
+.Slection{
+  padding-left:10px;
+}
+.Cousin{
+  width:25%;
+  height:25%;
+   transform: rotate(90deg);
+}
+iframe{
+  box-sizing: border-box;
+  border: solid red;
+}
+.Youtube{
+  padding-top:30rem;
+}
+/*Contact*/
+*{
+  background-color: black;
+  color:white;
+}
+h3{
+  font-family:fantasy;
+}
+div{
+  display:flex;
+  justify-content:space-between;
+}
+
+h1{
+  padding-top:3rem;
+}
+
+/*Photo Page*/
+
+.group1{
+  width:25%;
+  height:25%;
+}
+.Homie1{
+  width:25%;
+  height:25%;
+}
+
+.Slection{
+  padding-left:10px;
+}
+.Cousin1{
+  width:25%;
+  height:25%;
+   transform: rotate(90deg);
+ }
+
+.Catalog{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+justify-content: space-between;
+}
+.MainRowP{
+  display: flex;
+  justify-content: space-between;
+}
