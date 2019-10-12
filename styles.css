@@ -63,6 +63,14 @@ h1{
   width:25%;
   height:25%;
 }
+.roomates{
+  width:25%;
+  height:25%;
+}
+.building{
+  width:25%;
+  height:25%;
+}
 
 .Slection{
   padding-left:10px;
@@ -70,15 +78,35 @@ h1{
 .Cousin1{
   width:25%;
   height:25%;
-   transform: rotate(90deg);
+   margin-top:20px;
  }
-
+.ff{
+  width:25%;
+  height:25%;
+}
+.uncle{
+  width:25%;
+  height:25%;
+}
+.od{
+  width:25%;
+  height:25%;
+}
+.ex{
+  width:25%;
+  height:25%;
+}
+.car{
+  width:25%;
+  height:25%;
+}
 .Catalog{
   display: flex;
   justify-content: center;
   align-items: baseline;
   flex-direction: row;
 justify-content: space-between;
+  flex-wrap: wrap;
 }
 .MainRowP{
   display: flex;
