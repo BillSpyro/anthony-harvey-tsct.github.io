@@ -1,5 +1,6 @@
 *{
   color:white;
+  background-color: black;
 }
 html{
   background-color: black;
@@ -8,14 +9,11 @@ div{
   display:flex;
   justify-content: space-between;
 }
-.group{
+.group, .Homie, .Cousin{
   width:25%;
   height:25%;
 }
-.Homie{
-  width:25%;
-  height:25%;
-}
+
 .Photos{
   display: flex;
   flex-direction: row;
@@ -25,8 +23,6 @@ div{
   padding-left:10px;
 }
 .Cousin{
-  width:25%;
-  height:25%;
    transform: rotate(90deg);
 }
 iframe{
@@ -37,16 +33,8 @@ iframe{
   padding-top:30rem;
 }
 /*Contact*/
-*{
-  background-color: black;
-  color:white;
-}
 h3{
   font-family:fantasy;
-}
-div{
-  display:flex;
-  justify-content:space-between;
 }
 
 h1{
@@ -55,57 +43,26 @@ h1{
 
 /*Photo Page*/
 
-.group1{
-  width:25%;
-  height:25%;
-}
-.Homie1{
-  width:25%;
-  height:25%;
-}
-.roomates{
-  width:25%;
-  height:25%;
-}
-.building{
+.group1, .Homie1, .roomates, .building, .Cousin1{
   width:25%;
   height:25%;
 }
 
-.Slection{
-  padding-left:10px;
-}
+
 .Cousin1{
-  width:25%;
-  height:25%;
    margin-top:20px;
  }
-.ff{
+.ff, .uncle, .od, .ex, .car{
   width:25%;
   height:25%;
 }
-.uncle{
-  width:25%;
-  height:25%;
-}
-.od{
-  width:25%;
-  height:25%;
-}
-.ex{
-  width:25%;
-  height:25%;
-}
-.car{
-  width:25%;
-  height:25%;
-}
+
 .Catalog{
   display: flex;
   justify-content: center;
   align-items: baseline;
   flex-direction: row;
-justify-content: space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .MainRowP{
