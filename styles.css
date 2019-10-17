@@ -42,6 +42,9 @@ iframe{
 .Youtube{
   padding-top:30rem;
 }
+.Youtube iframe{
+  align-items: baseline;
+}
 /*Contact*/
 h3{
   font-family:fantasy;
@@ -69,7 +72,6 @@ h1{
 
 .Catalog{
   display: flex;
-  justify-content: center;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-between;
